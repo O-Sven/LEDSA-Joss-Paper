@@ -28,9 +28,8 @@ bibliography: paper.bib
 
 # Summary
 
-The simulation of fire and smoke spread is an important aid in fire saftiy considerations. An example would be the time a fire needs to spread to an emergency exit, preventing any further escape from people inside a room. Having this information can help in determining the safety limit of people inside the room or if another emergency exit is advisable.
-Better understanding of fire and smoke allows for more accurate simulations and better information to base these decisions on.
-One important property of smoke is the amount of light absorbed and reflected while passing through it, as it gives a measure of how far a human could see inside a smoke cloud. LEDSA analyses this light extinction in specific laboratory settings for many points inside a room over the whole duration of a fire, allowing conclusions about the spread of smoke and the aging of soot as well as improving the parameters used in fire models for the calculation light extinction.
+The simulation of fire and smoke spread is an important aid in fire safety considerations. An example would be the time a fire needs to spread to an emergency exit, preventing any further escape from people inside a room. Having this information can help in determining the safety limit of people inside the room or if another emergency exit is advisable. Better understanding of fire and smoke allows for more accurate simulations and better information to base these decisions on.  
+One important property of smoke is the amount of light absorbed and reflected while passing through it, as it gives a measure of how far a human could see inside a smoke cloud. LEDSA analyses this light extinction in specific laboratory settings for many points inside a room over the whole duration of a fire, allowing conclusions about the spread of smoke and the aging of soot as well as improving the parameters used in fire models for the calculation of light extinction.
 
 
 # Statement of need
