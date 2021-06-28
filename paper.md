@@ -1,46 +1,37 @@
 ---
-title: 'Gala: A Python package for galactic dynamics'
+title: 'LEDSA: Analysis of Light Extinction by Smoke'
 tags:
   - Python
-  - astronomy
-  - dynamics
-  - galactic dynamics
-  - milky way
+  - light absorption
+  - light extinction
+  - Smoke propagation
+  - extinction coefficient
 authors:
-  - name: Adrian M. Price-Whelan^[co-first author] # note this makes a footnote saying 'co-first author'
-    orcid: 0000-0003-0872-7098
-    affiliation: "1, 2" # (Multiple affiliations must be quoted)
-  - name: Author Without ORCID^[co-first author] # note this makes a footnote saying 'co-first author'
+  - name: Lukas Arnold
+    orcid: 
+    affiliation: "1, 2"
+  - name: Alexander Belt
+    affiliation: 1
+  - name: Kristian Börger
     affiliation: 2
-  - name: Author with no affiliation^[corresponding author]
-    affiliation: 3
+  - mane: Sven Orzel
+    affiliation: 1
 affiliations:
- - name: Lyman Spitzer, Jr. Fellow, Princeton University
+ - name: Forschungszentrum Jülich GmbH
    index: 1
- - name: Institution Name
+ - name: Bergische Universität Wuppertal
    index: 2
- - name: Independent Researcher
-   index: 3
 date: 13 August 2017
 bibliography: paper.bib
 
-# Optional fields if submitting to a AAS journal too, see this blog post:
-# https://blog.joss.theoj.org/2018/12/a-new-collaboration-with-aas-publishing
-aas-doi: 10.3847/xxxxx <- update this with the DOI from AAS once you know it.
-aas-journal: Astrophysical Journal <- The name of the AAS journal.
 ---
 
 # Summary
 
-The forces on stars, galaxies, and dark matter under external gravitational
-fields lead to the dynamical evolution of structures in the universe. The orbits
-of these bodies are therefore key to understanding the formation, history, and
-future state of galaxies. The field of "galactic dynamics," which aims to model
-the gravitating components of galaxies to study their structure and evolution,
-is now well-established, commonly taught, and frequently used in astronomy.
-Aside from toy problems and demonstrations, the majority of problems require
-efficient numerical tools, many of which require the same base code (e.g., for
-performing numerical orbit integration).
+The simulation of fire and smoke spread is an important aid in fire saftiy considerations. An example would be the time a fire needs to spread to an emergency exit, preventing any further escape from people inside a room. Having this information can help in determining the safety limit of people inside the room or if another emergency exit is advisable.
+Better understanding of fire and smoke allows for more accurate simulations and better information to base these decisions on.
+One important property of smoke is the amount of light absorbed and reflected while passing through it, as it gives a measure of how far a human could see inside a smoke cloud. LEDSA analyses this light extinction in specific laboratory settings for many points inside a room over the whole duration of a fire, allowing conclusions about the spread of smoke and the aging of soot as well as improving the parameters used in fire models for the calculation light extinction.
+
 
 # Statement of need
 
